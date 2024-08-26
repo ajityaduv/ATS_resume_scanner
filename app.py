@@ -42,7 +42,7 @@ def input_pdf_setup(uploaded_file):
 ## Streamlit APP
 
 st.set_page_config(page_title="ATS Resume Expert")
-st.header("ATS Tracking System")
+st.header("ATS Resume Scanner")
 input_text=st.text_area("Job Description: ", key="input")
 uploaded_file=st.file_uploader("Upload your Resume(PDF)...",type=["pdf"])
 
